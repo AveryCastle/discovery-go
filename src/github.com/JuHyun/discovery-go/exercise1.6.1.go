@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func printSong(amount int) {
 	fmt.Printf("타잔이 %d원짜리 팬티를 입고, %d원짜리 칼을 차고 노래를 한다.\n", amount, (amount + 10))
@@ -21,5 +19,5 @@ func calcTazanSong(n int) int {
 }
 
 func main() {
-	calcTazan(5)
+	calcTazanSong(5)
 }
